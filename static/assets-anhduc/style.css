@@ -1,0 +1,35 @@
+header {
+    background-color: black;  
+}
+
+#header-section {
+    background-color: black;
+}
+
+@media (min-width:768px) { 
+/* centered navigation */
+ .nav.navbar-nav {
+     float: left;
+ }
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+ .nav.navbar-nav > li {
+     position: relative;
+     right: 50%;
+ }
+ .nav.navbar-nav li {
+    text-align: left
+ }
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
