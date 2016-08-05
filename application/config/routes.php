@@ -38,8 +38,10 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "home";
 $route['404_override'] = '';
+$route['technology'] = "each_category/index/technology";
+$route['education'] = "each_category/index/education";
 
 
 /* End of file routes.php */

@@ -11,10 +11,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 
 	<!-- Quyen's Links and Scripts-->
-	<link rel="stylesheet" href="<?php echo base_url();?>/static/assets-QuyenTang/text.css">
+	<link rel="stylesheet" href="<?php echo base_url();?>/static/assets-QuyenTang/style.css">
 	<style type="text/css">
 		table {
-	    	border-spacing: 200px;
+	    	border-spacing: 100px;
 		}
 	</style>
 
@@ -41,7 +41,7 @@
 						<input class="form-control" type="text" placeholder="Search here">
 					</div>
 					<div class="text-center">
-						<button onClick="location.href='<?php echo base_url();?>index.php/form'" type="button">Tạo sự kiện</button>
+						<button onClick="location.href='<?php echo base_url();?>form'" type="button">Tạo sự kiện</button>
 					</div>
 				</div>
 			</div>
@@ -49,9 +49,9 @@
 		<div>
 			<nav class="navbar navbar-inverse">
 				<ul class="nav navbar-nav">
-					<li><a href="<?php echo base_url();?>index.php/home">Trang chủ</a></li>
-					<li><a href="#technology">Công ghệ</a></li>
-					<li><a href="#education">Giáo Dục</a></li>
+					<li><a href="<?php echo base_url();?>home">Trang chủ</a></li>
+					<li><a href="<?php echo base_url();?>technology">Công ghệ</a></li>
+					<li><a href="<?php echo base_url();?>education">Giáo Dục</a></li>
 				</ul>
 			</nav>
 		</div>

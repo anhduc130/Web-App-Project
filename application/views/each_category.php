@@ -1,28 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- Header Section -->
 <?php include 'header.php';?>
-	<table style ="width:100%">
-		<div class="container">
-			<h1><a href="#"><caption>Southern region</caption></a></h1>
-			<tr>
-			<div class="row">
-				<div class="col-md-4">
-					<a href="#">
-						<div class="event_one">
-							<div class="info"><th><span class="event-name">VietAbroader Career</span></th><span class="event-description"><td>From 2004 until now, by upholding our decade-proven values, VietAbroader has sent our members to numerous top universities and colleges around the world, as well as prestigious employment opportunities.</td></span></div>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-4">
-					<a href="#">
-						<div class="event_two">
-							<th><div class="info"><th><span class="event-name">AIESEC Volunteering Opportunities</span></th><span class="event-description"><td>AIESEC is a global platform for young people to explore and develop their leadership potential.</td></span></div>
-						</div>
-					</a>
-				</div>
-			</div>
-			</tr>
+
+<!-- Body Section -->
+<div class="containter-fluid">
+	<h1><?php echo $category;?></h1>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
 		</div>
-	</table>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>			
+	</div>
+	<br><hr>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>	
+	</div>
+	<br><hr>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>	
+	</div>
+	<br><hr>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>
+		<div class="col-md-4">
+			<img src="<?php echo base_url();?>/static/images-QuyenTang/aiesec.png" style="width:100%;height:auto%;">
+		</div>	
+	</div>
+</div>
+<br>
+<!-- Footer Section -->
 <?php include 'footer.php';?>
 </html>
