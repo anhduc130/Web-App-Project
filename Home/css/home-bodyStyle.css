@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html body {
+	height: 100%;
+	background-color: rgb(71,73,85);
+	padding: 20px;
+}
+#edu-box {
+	background-color: rgb(254,64,89);
+}
+#career-box {
+	background-color: rgb(255,73,75);
+}
+#fashion-box {
+	background-color: rgb(225,96,100);
+}
+#tech-box {
+	background-color: rgb(252,143,162);
+}
+#others-box {
+	background-color: rgb(255,73,75);
+}
+.box {
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative;
+	width: 100%; 
+	overflow: hidden;
+}
+.box:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+.image {
+	padding: 0 !important;
+	margin: 0;
+}
+.image img {
+	width: 100%;
+	height: auto;
+}
+.box-content {
+	color: #fff;
+	font-size: 20px;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

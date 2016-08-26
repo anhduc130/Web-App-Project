@@ -1,0 +1,52 @@
+.banner{ 
+	height: 10%;
+	background-color: #494953;
+}
+
+/* nav-bar dark */
+.navbar-inverse{
+	background-color: #17171b !important;
+	width:100%;
+}
+
+/* logo */
+.navbar-brand{
+	position: fixed;
+	margin-top: -5%;
+}
+
+/* find-search*/
+.nav-pills{
+	margin-left:20% !important;
+	margin-top: 5px !important;
+}
+
+.search-event{
+	background-color: rgba(0,0,0,0.7);
+	height: 2em;
+	font-size: 20px;
+	padding: 10px;
+	position: static;
+	border: none;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+}
+
+.create-an-event-button{
+	background-color:rgba(206,53,64,0.7);
+	height: 2em;
+	font-size: 20px;
+	position: static;
+	color:#ffffff;
+	width: 200px;
+	box-shadow: 8px 5px rgba(0,0,0,0.7);
+	border:none;
+	max-width: 100%;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 10px;
+}
+
+.nav li {
+	font-size: 20px;
+}
