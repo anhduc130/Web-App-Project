@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
 	<title>EventsViet</title>
@@ -18,7 +18,7 @@
 	<div class="container">	
 		<?php include("_includes/navBar.php") ?>
 		<?php include("_includes/carousel.php") ?>
-		<?php include("_includes/home-body.php") ?>
+		<?php include("_includes/home-body-cat.php") ?>
 		<?php include("_includes/aboutUs.php") ?>
 	</div>
 		<?php include("_includes/footer.php") ?>

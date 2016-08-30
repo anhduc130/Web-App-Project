@@ -1,13 +1,7 @@
-* {
-	margin: 0;
-	padding: 0;
+.home-body{
+	margin: 3% auto 3% auto;
 }
 
-html body {
-	height: 100%;
-	background-color: rgb(71,73,85);
-	padding: 20px;
-}
 #edu-box {
 	background-color: rgb(254,64,89);
 }
@@ -45,7 +39,17 @@ html body {
 }
 .box-content {
 	color: #fff;
-	font-size: 20px;	
+	font-size: 35px;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.box-content-1 {
+	color: #ffffff;
+	font-size: 35px;
+	font-style: italic;
 	position: absolute;
 	top: 50%;
 	left: 50%;
