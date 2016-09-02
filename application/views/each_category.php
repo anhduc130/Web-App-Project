@@ -33,8 +33,8 @@
     
     <!-- navBar & Caroisel in Web-App-Project/application/views/_include/....... -->
     <div class="container">
-        <?php include("/application/views/_includes/navBar.php");?>
-        <?php include("/application/views/_includes/carousel.php");?>
+        <?php include("_includes/navBar.php");?>
+        <?php include("_includes/carousel.php");?>
 
     </div>
 

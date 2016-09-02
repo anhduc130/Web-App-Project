@@ -1,0 +1,129 @@
+.show-description small {
+    opacity: 1;
+}
+
+.show-description .event-content {
+    height: 150px;
+}
+
+small {
+    opacity: 0;
+}
+
+
+/* card image */
+
+.event-card-0 {
+    background-image: url(../images-KienThu/card_0.jpg);
+}
+
+.event-card-1 {
+    background-image: url(../images-KienThu/card_1.jpg);
+    background-color: burlywood;
+}
+
+.event-card-2 {
+    background-image: url(../images-KienThu/card_2.jpg);
+}
+
+.event-card-3 {
+    background-image: url(../images-KienThu/card_3.jpg);
+}
+
+.event-card-4 {
+    background-image: url(../images-KienThu/card_img.jpg);
+}
+
+
+/* Set content layout */
+
+.event-content {
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    padding: 10px;
+    line-height: 28px;
+    text-align: justify;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    width: 100%;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+}
+/* responsive img card */
+
+
+/* set img card size */
+
+
+@media screen and (min-width: 320px)and (max-width: 400px){
+    .events-card-0 {
+        width: auto;
+        height: 160px;
+        align-content: center;
+        margin-top: 10px
+    }
+    .events-card {
+        width: auto;
+        height: 160px;
+        align-content: center
+    }
+    .event-content {
+        width: 91%
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 767px){
+    .events-card-0 {
+        width: auto;
+        height: 180px;
+        align-content: center;
+        margin-top: 10px;
+        
+    }
+    .events-card {
+        width: auto;
+        height: 180px;
+    }
+    .event-content {
+        width: 93%
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px){
+    .events-card-0 {
+        width: auto;
+        height: 180px;
+        align-content: center;
+        margin-top: 10px;
+        
+    }
+    .events-card {
+        width: auto;
+        height: 180px;
+    }
+    .event-content {
+        width: 92%
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .events-card {
+        width: 390px;
+        height: 200px;
+        align-content: center;
+        margin-top: 0px;
+    }
+    .events-card-0 {
+        width: 585px;
+        height: 200px;
+    }
+    .event-content {
+        width: 100%
+    }
+}
