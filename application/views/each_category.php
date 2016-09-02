@@ -11,8 +11,7 @@
 
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/assets-kienthu/events.css">
-
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/events.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/home-bodyStyle.css">
@@ -23,7 +22,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script type='text/javascript' src="static/assets-kienthu/_event-cardbase-hover.js"></script>
+    <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
 
 </head>
 
@@ -47,7 +46,7 @@
     </script>
 
     <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
-    <?php include("/static/assets-kienthu/_cardbase.php");?>
+    <?php include("_includes/_cardbase.php");?>
 
     <!--Footer Section-->
     <footer>

@@ -14,24 +14,24 @@ small {
 /* card image */
 
 .event-card-0 {
-    background-image: url(../images-KienThu/card_0.jpg);
+    background-image: url(../images/each_category/card_0.jpg);
 }
 
 .event-card-1 {
-    background-image: url(../images-KienThu/card_1.jpg);
+    background-image: url(../images/each_category/card_1.jpg);
     background-color: burlywood;
 }
 
 .event-card-2 {
-    background-image: url(../images-KienThu/card_2.jpg);
+    background-image: url(../images/each_category/card_2.jpg);
 }
 
 .event-card-3 {
-    background-image: url(../images-KienThu/card_3.jpg);
+    background-image: url(../images/each_category/card_3.jpg);
 }
 
 .event-card-4 {
-    background-image: url(../images-KienThu/card_img.jpg);
+    background-image: url(../images/each_category/card_img.jpg);
 }
 
 
