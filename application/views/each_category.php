@@ -28,30 +28,83 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- to access to this, go: localhost:8888/Web-App-Project/technology>
-    
-    <!-- navBar & Caroisel in Web-App-Project/application/views/_include/....... -->
-    <div class="container">
-        <?php include("_includes/navBar.php");?>
-        <?php include("_includes/carousel.php");?>
+<!-- to access to this, go: localhost:8888/Web-App-Project/technology -->
+
+<!-- navBar & Caroisel in Web-App-Project/application/views/_include/....... -->
+<div class="container">
+    <?php include("_includes/navBar.php");?>
+    <?php include("_includes/carousel.php");?>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+    $('#myCarousel').carousel({
+        interval: 4000
+    })
+</script>
+
+<!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
+<!--Card-based design-->
+<div class="container">
+    <!--Start row-->
+    <div class="row">
+        <a>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="events-card-0 event-card-0">
+                    <p class="event-content"><span class="eventName">Event 1</span></br>
+                        <small>Size 585x200. Location. Date. Category.</small>
+                    </p>
+                </div>
+            </div>
+        </a>
+        
+        <a>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="events-card-0 event-card-1">
+                    <p class="event-content"><span class="eventName">Event 2</span></br>
+                        <small>Size 585x200. Location. Date. Category.</small>
+                    </p>
+                </div>
+            </div>
+        </a>
+
     </div>
+    <!--End row-->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script>
-        $('#myCarousel').carousel({
-            interval: 4000
-        })
-    </script>
+    <!--Start row-->
+    <div class="row">
+        <a>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="events-card-0 event-card-3">
+                    <p class="event-content"><span class="eventName">Event 3</span></br>
+                        <small>Size 585x200. Location. Date. Category.</small>
+                    </p>
+                </div>
+            </div>
+        </a>
 
-    <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
-    <?php include("_includes/_cardbase.php");?>
+        <a>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="events-card-0 event-card-4">
+                    <p class="event-content"><span class="eventName">Event 4</span></br>
+                        <small>Size 585x200. Location. Date. Category.</small>
+                    </p>
+                </div>
+            </div>
+        </a>
 
-    <!--Footer Section-->
-    <footer>
-        <div class="container-fluid">
-            <h5 class=text-center> Web App Project | All Rights Reserved</h5>
-        </div>
-    </footer>
+    </div>
+    <!--End row-->
+
+</div>
+<!--End card-based-->
+
+<!--Footer Section-->
+<footer>
+    <div class="container-fluid">
+        <h5 class=text-center> Web App Project | All Rights Reserved</h5>
+    </div>
+</footer>
 </body>
 
 </html>

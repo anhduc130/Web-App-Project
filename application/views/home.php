@@ -15,13 +15,65 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-	<div class="container">	
-		<?php include("_includes/navBar.php"); ?>
-		<?php include("_includes/carousel.php"); ?>
-		<?php include("_includes/home-body.php"); ?>
-		<?php include("_includes/aboutUs.php"); ?>
+<?php include("_includes/navBar.php"); ?>
+<?php include("_includes/carousel.php"); ?>
+
+<!-- This is our body -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2"></div>
+
+		<div class="col-md-8">
+
+			<div class="row">
+				<a href="#">
+					<div class="col-md-4 box" id="edu-box">
+						<div class="box-content">EDUCATION</div>
+					</div>
+				</a>
+				<div class="col-md-4 image">
+					<img src="<?php echo base_url("static/images/meeting.jpg"); ?>" alt="">
+				</div>
+				<a href="#">
+					<div class="col-md-4 box" id="career-box">
+						<div class="box-content">CAREER</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4 image">
+					<img src="<?php echo base_url("static/images/cocktail.jpg"); ?>" alt="">
+				</div>
+				<a href="">
+					<div class="col-md-4 box" id="fashion-box">
+						<div class="box-content">FASHION</div>
+					</div>
+				</a>
+				<a href="#">
+					<div class="col-md-4 box" id="tech-box">
+						<div class="box-content">TECHNOLOGY</div>
+					</div>
+				</a>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 image">
+					<img src="<?php echo base_url("static/images/tech.jpg"); ?>" alt="">
+				</div>
+				<a href="#">
+					<div class="col-md-4 box" id="others-box">
+						<div class="box-content">OTHERS</div>
+					</div>
+				</a>
+			</div>
+
+		</div>		
 	</div>
-		<?php include("_includes/footer.php"); ?>
+</div>
+
+<?php include("_includes/aboutUs.php");?>
+<?php include("_includes/footer.php"); ?>
 
 </body>
 </html>
