@@ -7,14 +7,14 @@
     <title>Form</title>
 
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/events.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/carouselStyle.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/navBarStyle.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/home-bodyStyle.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/homeStyle.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/aboutUsStyle.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/footer.css");?>">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/form.css");?>">
+    
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/form.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -139,6 +139,7 @@
 	</div>
 </div>
 
+<?php include("_includes/aboutUs.php");?>
 <!-- Footer Section -->
 <?php include("_includes/footer.php"); ?>
 

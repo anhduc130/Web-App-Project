@@ -1,1 +1,1 @@
-<footer>Created in 2006 | All Rights Reserved</footer>
+<footer>Created in 2016 | All Rights Reserved</footer>

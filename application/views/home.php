@@ -2,13 +2,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>EventsViet</title>
-	<link rel="stylesheet" href="../static/css/carouselStyle.css">
-	<link rel="stylesheet" href="../static/css/navBarStyle.css">
-	<link rel="stylesheet" href="../static/css/home-bodyStyle.css">
-	<link rel="stylesheet" href="../static/css/homeStyle.css">
-	<link rel="stylesheet" href="../static/css/aboutUsStyle.css">
-	<link rel="stylesheet" href="../static/css/footer.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script> $('#myCarousel').carousel({ interval: 4000 }) </script>	

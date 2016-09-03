@@ -11,13 +11,13 @@
 
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/events.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/carouselStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/navBarStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/home-bodyStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/homeStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/aboutUsStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>/static/css/footer.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/each_categoryStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -30,82 +30,79 @@
 <!-- to access to this, go: localhost:8888/Web-App-Project/technology -->
 
 <!-- navBar & Caroisel in Web-App-Project/application/views/_include/....... -->
-<div class="container">
-    <?php include("_includes/navBar.php");?>
-    <?php include("_includes/carousel.php");?>
-</div>
+    <div class="container">
+        <?php include("_includes/navBar.php");?>
+        <?php include("_includes/carousel.php");?>
+    </div>
 
-<div class="containter-fluid text-center">
-    <h1><?php echo $category;?></h1>
-</div>
-<!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
-<!--Card-based design-->
-<div class="container">
-    <!--Start row-->
-    <div class="row">
-        <a>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="events-card-0 event-card-0">
-                    <p class="event-content"><span class="eventName">Event 1</span></br>
-                        <small>Size 585x200. Location. Date. Category.</small>
-                    </p>
+    <div class="containter-fluid text-center">
+        <h1><?php echo $category;?></h1>
+    </div>
+    <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
+    <!--Card-based design-->
+    <div class="container">
+        <!--Start row-->
+        <div class="row">
+            <a>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="events-card-0 event-card-0">
+                        <p class="event-content"><span class="eventName">Event 1</span> <br>
+                            <small>Size 585x200. Location. Date. Category.</small>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </a>
-        
-        <a>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="events-card-0 event-card-1">
-                    <p class="event-content"><span class="eventName">Event 2</span></br>
-                        <small>Size 585x200. Location. Date. Category.</small>
-                    </p>
+            </a>
+            
+            <a>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="events-card-0 event-card-1">
+                        <p class="event-content"><span class="eventName">Event 2</span> <br>
+                            <small>Size 585x200. Location. Date. Category.</small>
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+
+        </div>
+        <!--End row-->
+
+        <!--Start row-->
+        <div class="row">
+            <a>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="events-card-0 event-card-3">
+                        <p class="event-content"><span class="eventName">Event 3</span> <br>
+                            <small>Size 585x200. Location. Date. Category.</small>
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+            <a>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="events-card-0 event-card-4">
+                        <p class="event-content"><span class="eventName">Event 4</span> <br>
+                            <small>Size 585x200. Location. Date. Category.</small>
+                        </p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        <!--End row-->
 
     </div>
-    <!--End row-->
+    <!--End card-based-->
 
-    <!--Start row-->
-    <div class="row">
-        <a>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="events-card-0 event-card-3">
-                    <p class="event-content"><span class="eventName">Event 3</span></br>
-                        <small>Size 585x200. Location. Date. Category.</small>
-                    </p>
-                </div>
-            </div>
-        </a>
+    <?php include("_includes/aboutUs.php");?>
+    <?php include("_includes/footer.php");?>
+   
 
-        <a>
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div class="events-card-0 event-card-4">
-                    <p class="event-content"><span class="eventName">Event 4</span></br>
-                        <small>Size 585x200. Location. Date. Category.</small>
-                    </p>
-                </div>
-            </div>
-        </a>
-
-    </div>
-    <!--End row-->
-
-</div>
-<!--End card-based-->
-
-<!--Footer Section-->
-<footer>
-    <div class="container-fluid">
-        <h5 class=text-center> Web App Project | All Rights Reserved</h5>
-    </div>
-</footer>
-
-<!--Here is for javascript-->
-<script>
-    $('#myCarousel').carousel({
-        interval: 4000
-    })
-</script>
+    <!--Here is for javascript-->
+    <script>
+        $('#myCarousel').carousel({
+            interval: 4000
+        })
+    </script>
 </body>
 </html>
