@@ -6,10 +6,10 @@
 				<div class="dark">
 					<div class="aboutUs">ABOUT US</div>	
 				</div>
-				<img src="<?php echo base_url("static/images/map.png"); ?>" alt="map" class="map">
+				<img src="<?php echo base_url("static/images/footer/map.png"); ?>" alt="map" class="map">
 			</div>
 
-			<img src="<?php echo base_url("static/images/foot.png"); ?>" alt="foot in aboutUs" class="red">
+			<img src="<?php echo base_url("static/images/footer/foot.png"); ?>" alt="foot in aboutUs" class="red">
 
 		</div>
 

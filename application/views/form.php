@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Header Section -->
-<?php include 'header.php';?>
 
-<!-- Body Section -->
-<div class="container">
+<head>
+	<meta charset="utf-8" />
+    <title>Form</title>
+
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/events.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/carouselStyle.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/navBarStyle.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/home-bodyStyle.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/homeStyle.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/aboutUsStyle.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/footer.css");?>">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url("static/css/form.css");?>">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+<?php include("_includes/navBar.php"); ?>
+
+<div class="container-fluid form">
+	<br><br><br><br><br><br>
 	<div class="row">
-		<!-- Submit a post form -->
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			ĐĂNG KÍ SỰ KIỆN <br>
-			<form id="submit-form" method="post" >
-				<div class="row">
-					<div class="col-md-6">
-						<label for="eventName">Tên Sự Kiện:</label>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<textarea type="text" id="eventName" name="eventName" cols="40"></textarea>
-					</div>
-				</div>
-				<br>
-
+		<form id="submit-form" method="post" >	
 				<div class="row">
 					<div class="col-md-4">
 						<label for="organizer">Ban Tổ Chức:</label>
@@ -126,14 +133,13 @@
 					</div>
 				</div>
 				<br>
-
 			</form> 
-		<div class="col-md-2"></div>
-			<!-- end of form --> 
-		</div>
+			</div>
 	</div>
 </div>
-	
+
 <!-- Footer Section -->
-<?php include 'footer.php';?>
+<?php include("_includes/footer.php"); ?>
+
+</body>
 </html>

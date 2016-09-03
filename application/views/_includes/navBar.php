@@ -4,15 +4,15 @@
 	</div>	
 
 	<!--Navbar-->
-	<nav class="navbar navbar-inverse navbar-fixed-top" data-spy="affix" data-offset-top="100">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
         
         <!--Logo and slogan-->
         <div class="container-fluid">
             <div class="row banner">
-            	<a href="#"><img src="<?php echo base_url("static/images/logo.png"); ?>" alt="logo" class="logo"></a>
+            	<a href="#"><img src="<?php echo base_url("static/images/header/logo.png"); ?>" alt="logo" class="logo"></a>
             	<div class="language"> Choose your language:
-	            	<a href="#"><img src="<?php echo base_url("static/images/vnflag.png"); ?>" alt="vn flag" ></a>
-	            	<a href="#"><img src="<?php echo base_url("static/images/UK Flag.png"); ?>" alt="uk flag" ></a>
+	            	<a href="#"><img src="<?php echo base_url("static/images/header/vnflag.png"); ?>" alt="vn flag" ></a>
+	            	<a href="#"><img src="<?php echo base_url("static/images/header/UK Flag.png"); ?>" alt="uk flag" ></a>
             	</div>
             </div>
         </div>

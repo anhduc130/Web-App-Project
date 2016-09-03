@@ -11,7 +11,7 @@
                 </div>
             </div>
         </a>
-
+        
         <a>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="events-card-0 event-card-1">
