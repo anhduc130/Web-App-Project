@@ -10,6 +10,15 @@ class Each_category extends CI_Controller {
 		else if($category == 'education'){
 			$data['category'] = 'Giáo dục';
 		}
+		if($category == 'career'){
+			$data['category'] = 'Nghề nghiệp';
+		}
+		else if($category == 'fashion'){
+			$data['category'] = 'Thời trang';
+		}
+		else if($category == 'others'){
+			$data['category'] = 'Những events khác';
+		}
 		$this->load->view('each_category',$data);
 	}
 }

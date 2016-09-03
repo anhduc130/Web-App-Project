@@ -23,7 +23,6 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -36,13 +35,9 @@
     <?php include("_includes/carousel.php");?>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script>
-    $('#myCarousel').carousel({
-        interval: 4000
-    })
-</script>
-
+<div class="containter-fluid text-center">
+    <h1><?php echo $category;?></h1>
+</div>
 <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
 <!--Card-based design-->
 <div class="container">
@@ -105,6 +100,12 @@
         <h5 class=text-center> Web App Project | All Rights Reserved</h5>
     </div>
 </footer>
-</body>
 
+<!--Here is for javascript-->
+<script>
+    $('#myCarousel').carousel({
+        interval: 4000
+    })
+</script>
+</body>
 </html>

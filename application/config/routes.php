@@ -42,7 +42,9 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 $route['technology'] = "each_category/index/technology";
 $route['education'] = "each_category/index/education";
-
+$route['career'] = "each_category/index/career";
+$route['fashion'] = "each_category/index/fashion";
+$route['others'] = "each_category/index/others";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

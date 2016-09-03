@@ -26,7 +26,7 @@
 		<div class="col-md-8">
 
 			<div class="row">
-				<a href="#">
+				<a href="<?php echo base_url("education");?>">
 					<div class="col-md-4 box" id="edu-box">
 						<div class="box-content">EDUCATION</div>
 					</div>
@@ -34,7 +34,7 @@
 				<div class="col-md-4 image">
 					<img src="<?php echo base_url("static/images/meeting.jpg"); ?>" alt="">
 				</div>
-				<a href="#">
+				<a href="<?php echo base_url("career");?>">
 					<div class="col-md-4 box" id="career-box">
 						<div class="box-content">CAREER</div>
 					</div>
@@ -45,12 +45,12 @@
 				<div class="col-md-4 image">
 					<img src="<?php echo base_url("static/images/cocktail.jpg"); ?>" alt="">
 				</div>
-				<a href="">
+				<a href="<?php echo base_url("fashion");?>">
 					<div class="col-md-4 box" id="fashion-box">
 						<div class="box-content">FASHION</div>
 					</div>
 				</a>
-				<a href="#">
+				<a href="<?php echo base_url("technology");?>">
 					<div class="col-md-4 box" id="tech-box">
 						<div class="box-content">TECHNOLOGY</div>
 					</div>
@@ -61,7 +61,7 @@
 				<div class="col-md-8 image">
 					<img src="<?php echo base_url("static/images/tech.jpg"); ?>" alt="">
 				</div>
-				<a href="#">
+				<a href="<?php echo base_url("others");?>">
 					<div class="col-md-4 box" id="others-box">
 						<div class="box-content">OTHERS</div>
 					</div>
