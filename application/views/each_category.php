@@ -25,15 +25,13 @@
     <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 <!-- to access to this, go: localhost:8888/Web-App-Project/technology -->
 
 <!-- navBar & Caroisel in Web-App-Project/application/views/_include/....... -->
-    <div class="container">
         <?php include("_includes/navBar.php");?>
         <?php include("_includes/carousel.php");?>
-    </div>
 
     <div class="containter-fluid text-center">
         <h1><?php echo $category;?></h1>
