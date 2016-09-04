@@ -23,6 +23,7 @@
 
 <body>
 <?php include("_includes/navBar.php"); ?>
+test1
 <!-- This is our body -->
 <div class="container-fluid form">
 	<br><br><br><br><br><br>
