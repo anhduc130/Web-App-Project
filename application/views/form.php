@@ -139,7 +139,6 @@
 </div>
 
 <?php include("_includes/aboutUs.php");?>
-<!-- Footer Section -->
 <?php include("_includes/footer.php"); ?>
 
 </body>
