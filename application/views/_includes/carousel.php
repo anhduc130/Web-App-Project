@@ -1,6 +1,6 @@
-<div class="row">
+<div class="container">
+	<div class="row">
 		<div class="col-md-2"></div>
-
 		<div class="col-md-8">
 			<div id="myCarousel" class="carousel slide">
 				<ol class="carousel-indicators">
@@ -27,11 +27,8 @@
 				<a href="#myCarousel" class="carousel-control right" data-slide="next">
 					<span class="icon-next"></span>
 				</a>
-
 			</div> <!-- /carousel -->
-				
 		</div> <!-- /col-md-8-->
-
 		<div class="col-md-2"></div>
-
+	</div>
 </div>
