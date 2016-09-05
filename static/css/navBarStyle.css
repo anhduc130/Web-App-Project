@@ -17,10 +17,11 @@
 .logo{
 	cursor: pointer;
 	position: fixed;
-	margin-left: -15%;
+	margin-left: -25%;
 }
 
 .language{
+	margin-right: -20%;
 	margin-top: 15px;
 	color: #968D8E;
 }
@@ -65,6 +66,9 @@
 	font-size: 20px;
 	margin-right: 20px;
 	color: red ;
+}
+.navbar-toggle {
+	color: rgba(225,225,225,0.7);
 }
 
 .hover{
