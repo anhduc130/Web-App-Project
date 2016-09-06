@@ -1,17 +1,19 @@
+#carousel-section{
+	margin: 50% auto 7% auto;
+}
+
 .carousel{
 	box-shadow: 0 0 10px 10px rgba(0,0,0,0.7);
 	flex-wrap: wrap;
-	margin: 10% auto 10% auto;
 }
-
 .carousel-indicators{
-	bottom: -80px !important;
+	top: 97% !important;
 }
 
 .carousel-indicators li{
 	background-color: #ffffff !important; 
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.7);
-	margin: 10px !important;
+	margin: 5% !important;
 }
 
 .carousel-indicators li.active{

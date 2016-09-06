@@ -1,6 +1,6 @@
 <!--FOOTER -->
 <div id="footer">
-    <div class="container-fluid" style="background-color:black;color:red;">
+    <div class="container-fluid footer">
         <div class="row text-center">
         	<div class="col-md-12">
         		<br>
