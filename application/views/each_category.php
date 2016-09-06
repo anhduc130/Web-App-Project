@@ -95,5 +95,24 @@
         interval: 4000
     })
 </script>
+<script type="text/javascript">
+if($(window).width() > 767){
+    $("#carousel-section").css('margin-top','7%');
+}else if($(window).width() > 505){
+    $("#carousel-section").css('margin-top','10%');
+}
+else{
+    $("#carousel-section").css('margin-top','17%');
+}
+$(window).resize(function(){
+    if($(window).width() > 767){
+        $("#carousel-section").css('margin-top','7%');
+    }else if($(window).width() > 505){
+        $("#carousel-section").css('margin-top','10%');
+    }
+    else{
+        $("#carousel-section").css('margin-top','17%');
+    }
+});
 </body>
 </html>
