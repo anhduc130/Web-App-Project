@@ -72,7 +72,6 @@
 <?php include("_includes/aboutUs.php");?>
 <?php include("_includes/footer.php"); ?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript">
 if($(window).width() > 767){
     $("#carousel-section").css('margin-top','7%');
