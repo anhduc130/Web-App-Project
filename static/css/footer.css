@@ -1,7 +1,7 @@
-footer{
+.footer{
 	font-family: 'Roboto', Arial;
 	font-size: 15px;
-	color: #fff;
-	background-color: #17171b;
+	color: white;
+	background-color: black;
 	text-align: center;
 }

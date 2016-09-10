@@ -12,7 +12,7 @@
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=2.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/form.css">
 
@@ -21,9 +21,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 <?php include("_includes/navBar.php"); ?>
-
 <!-- This is our body -->
 <div class="container-fluid form">
 	<br><br><br><br><br><br>
@@ -140,7 +139,6 @@
 </div>
 
 <?php include("_includes/aboutUs.php");?>
-<!-- Footer Section -->
 <?php include("_includes/footer.php"); ?>
 
 </body>
