@@ -32,19 +32,16 @@
 				</ul> 
 
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#" class="hover">HOME</a></li>
+					<li><a href="<?php echo base_url("home");?>" class="hover">HOME</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle hover" data-toggle="dropdown">CATEGORIES</a>
-					<!--
 						<ul class="dropdown-menu hover-sub">
-							<li><a href="#" class="hover-child">Education</a></li>
-							<li><a href="#" class="hover-child">Career</a></li>
-							<li><a href="#" class="hover-child">Fashion</a></li>
-							<li><a href="#" class="hover-child">Technology</a></li>
-							<li><a href="#" class="hover-child">Others</a></li>
+							<li><a href="<?php echo base_url("education");?>" class="hover-child">Education</a></li>
+							<li><a href="<?php echo base_url("career");?>" class="hover-child">Career</a></li>
+							<li><a href="<?php echo base_url("fashion");?>" class="hover-child">Fashion</a></li>
+							<li><a href="<?php echo base_url("technology");?>" class="hover-child">Technology</a></li>
 						</ul>
-						-->
 					</li>
-					<li><a href="#" class="hover">ABOUT US</a></li>
+					<li><a href="#about-section" class="hover">ABOUT US</a></li>
 				</ul>
 			</div>
 		</div>

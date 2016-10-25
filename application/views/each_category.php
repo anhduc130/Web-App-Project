@@ -98,21 +98,28 @@
 <script type="text/javascript">
 if($(window).width() > 767){
     $("#carousel-section").css('margin-top','7%');
+    $('.logo').css('margin-left','14%');
 }else if($(window).width() > 505){
     $("#carousel-section").css('margin-top','10%');
+    $('.logo').css('margin-left','-22%');
 }
 else{
     $("#carousel-section").css('margin-top','17%');
+    $('.logo').css('margin-left','-22%');
 }
 $(window).resize(function(){
     if($(window).width() > 767){
         $("#carousel-section").css('margin-top','7%');
+        $('.logo').css('margin-left','14%');
     }else if($(window).width() > 505){
         $("#carousel-section").css('margin-top','10%');
+        $('.logo').css('margin-left','-22%');
     }
     else{
         $("#carousel-section").css('margin-top','17%');
+        $('.logo').css('margin-left','-22%');
     }
 });
+</script>
 </body>
 </html>
