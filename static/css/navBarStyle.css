@@ -35,11 +35,9 @@
 	height: 2em;
 	font-size: 20px;
 	padding: 10px;
-	position: static;
 	border: none;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
-	margin-left: 10px;
 	max-width: 100%;
 }
 
@@ -47,14 +45,12 @@
 	background-color:rgba(206,53,64,0.7);
 	height: 2em;
 	font-size: 20px;
-	position: static;
 	color:#ffffff;
 	width: 200px;
 	box-shadow: 8px 5px rgba(0,0,0,0.7);
 	border:none;
 	max-width: 100%;
 	font-family: 'Roboto', sans-serif;
-	margin-left: 10px;
 }
 
 .create-an-event-button:hover{
@@ -67,6 +63,7 @@
 	margin-right: 20px;
 	color: red ;
 }
+
 .navbar-toggle {
 	color: rgba(225,225,225,0.7);
 }
@@ -85,4 +82,35 @@
 
 .hover-child:hover{
 	background-color: rgba(148,115,118,0.7) !important;
+}
+
+@media screen and (max-width: 1260px) {
+	.nav li, .create-an-event-button, .search-event{
+		font-size: 15px !important;
+	}
+
+	.nav li{
+		margin-right: -5px !important;
+	}
+
+	.create-an-event-button, .search-event{
+		margin-top: 0.5em;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.nav li, .create-an-event-button, .search-event{
+		font-size: 9px !important;
+	}
+	
+	.create-an-event-button, .search-event{
+		margin-top: 1.5em;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.nav li, .create-an-event-button, .search-event {
+		font-size: 15px !important;
+	}
 }
