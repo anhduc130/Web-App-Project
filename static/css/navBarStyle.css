@@ -3,7 +3,7 @@
 }
 
 .center{
-	margin-left: 20% !important;
+	margin-left: 0% !important;
 }
 
 .banner{
@@ -17,7 +17,7 @@
 .logo{
 	cursor: pointer;
 	position: fixed;
-	margin-left: -25%;
+	margin-left: 14%;
 }
 
 .language{

@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<title>EventsViet</title>
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css?v=2.0">
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css?v=1.0">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css?v=2.0">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
@@ -75,20 +75,26 @@
 <script type="text/javascript">
 if($(window).width() > 767){
     $("#carousel-section").css('margin-top','7%');
+    $('.logo').css('margin-left','14%');
 }else if($(window).width() > 505){
     $("#carousel-section").css('margin-top','10%');
+    $('.logo').css('margin-left','-22%');
 }
 else{
 	$("#carousel-section").css('margin-top','17%');
+	$('.logo').css('margin-left','-22%');
 }
 $(window).resize(function(){
     if($(window).width() > 767){
         $("#carousel-section").css('margin-top','7%');
+    	$('.logo').css('margin-left','14%');
     }else if($(window).width() > 505){
         $("#carousel-section").css('margin-top','10%');
+        $('.logo').css('margin-left','-22%');
     }
     else{
 		$("#carousel-section").css('margin-top','17%');
+		$('.logo').css('margin-left','-22%');
 	}
 });
 </script>
