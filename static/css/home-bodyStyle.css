@@ -1,0 +1,57 @@
+.home-body{
+	margin: 3% auto 3% auto;
+}
+
+#edu-box {
+	background-color: rgb(254,64,89);
+}
+#career-box {
+	background-color: rgb(255,73,75);
+}
+#fashion-box {
+	background-color: rgb(225,96,100);
+}
+#tech-box {
+	background-color: rgb(252,143,162);
+}
+#others-box {
+	background-color: rgb(255,73,75);
+}
+.box {
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative;
+	width: 100%; 
+	overflow: hidden;
+}
+.box:before {
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+.image {
+	padding: 0 !important;
+	margin: 0;
+}
+.image img {
+	width: 100%;
+	height: auto;
+}
+.box-content {
+	color: #fff;
+	font-size: 2.9vw;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.box-content-1 {
+	color: #ffffff;
+	font-size: 35px;
+	font-style: italic;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

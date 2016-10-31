@@ -1,0 +1,116 @@
+.navbar{
+	max-width: 100%;
+}
+
+.center{
+	margin-left: 0% !important;
+}
+
+.banner{
+	height: 52px;
+	background-color: #494953;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.logo{
+	cursor: pointer;
+	position: fixed;
+	margin-left: 14%;
+}
+
+.language{
+	margin-right: -20%;
+	margin-top: 15px;
+	color: #968D8E;
+}
+	
+.language a:hover{
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.7);
+}
+
+.search-event{
+	background-color: rgba(0,0,0,0.7);
+	height: 2em;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	max-width: 100%;
+}
+
+.create-an-event-button{
+	background-color:rgba(206,53,64,0.7);
+	height: 2em;
+	font-size: 20px;
+	color:#ffffff;
+	width: 200px;
+	box-shadow: 8px 5px rgba(0,0,0,0.7);
+	border:none;
+	max-width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.create-an-event-button:hover{
+	background-color: rgba(240,105,115,0.7);
+}
+
+/*glyphicon-search*/
+.nav li { 
+	font-size: 20px;
+	margin-right: 20px;
+	color: red ;
+}
+
+.navbar-toggle {
+	color: rgba(225,225,225,0.7);
+}
+
+.hover{
+	color: #fff !important;
+}
+
+.hover:hover, .hover:active{
+	background-color: rgba(94,71,72,0.7) !important;
+}
+
+.hover-sub {
+	background-color: rgba(209,197,197,0.5) !important;
+}
+
+.hover-child:hover{
+	background-color: rgba(148,115,118,0.7) !important;
+}
+
+@media screen and (max-width: 1260px) {
+	.nav li, .create-an-event-button, .search-event{
+		font-size: 15px !important;
+	}
+
+	.nav li{
+		margin-right: -5px !important;
+	}
+
+	.create-an-event-button, .search-event{
+		margin-top: 0.5em;
+	}
+}
+
+@media screen and (max-width: 940px) {
+	.nav li, .create-an-event-button, .search-event{
+		font-size: 9px !important;
+	}
+	
+	.create-an-event-button, .search-event{
+		margin-top: 1.5em;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+	.nav li, .create-an-event-button, .search-event {
+		font-size: 15px !important;
+	}
+}

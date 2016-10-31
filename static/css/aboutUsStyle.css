@@ -1,0 +1,46 @@
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+.gray{
+	background-color: #bcbcbc;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 1%;
+	margin: 3% auto 0% auto;
+}
+
+.dark{
+	background-color: rgba(58,58,57,0.9);
+}
+
+.aboutUs{
+	background-color: rgba(220,118,135,0.4);
+	display: block;
+	font-size:20px;
+	padding: 10px;
+	margin-left: 0px;
+	margin-top: 0px;
+	color: #ffffff;
+}
+
+.aboutUsText{
+	color: white;
+	font-size: 15px;
+	margin: 0% 1% 2% 1%;
+	text-align: justify;
+}
+
+.map{
+	margin: 10px 30px auto auto;
+}
+
+.red{
+	height: 15%;
+	width: 95%;
+	margin-top: -18%;
+	margin-left: 5%;
+}
+
