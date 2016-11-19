@@ -1,36 +1,30 @@
-	<!--Logo and slogan-->
-	<div class="container-fluid">
-		<div class="row banner"></div>
-	</div>	
-
 <!--Navbar-->
 <nav class="navbar navbar-inverse navbar-fixed-top">
-    
-    <!--Logo and slogan-->
-    <div class="container-fluid">
+	
+	
+    <div class="container-fluid">	
+
         <div class="row banner">
-        	<a href="<?php echo base_url("home");?>"><img src="<?php echo base_url("static/images/header/logo.png"); ?>" alt="logo" class="logo">
-        	</a>
-        	<div class="language"> Choose your language:
+        	<div class="language">Choose your language: 
             	<a href="#"><img src="<?php echo base_url("static/images/header/vnflag.png"); ?>" alt="vn flag" ></a>
             	<a href="#"><img src="<?php echo base_url("static/images/header/UK Flag.png"); ?>" alt="uk flag" ></a>
-        	</div>
+        	</div>	
+			<a href="<?php echo base_url("home");?>"><img src="<?php echo base_url("static/images/header/logo.png"); ?>" alt="logo" class="logo"> </a>
         </div>
 
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseTarget">
 					<span class="glyphicon glyphicon-th"></span>
-				</button>
-				
+				</button>				
 			</div>
             
 			<div class="collapse navbar-collapse" id="collapseTarget"> 
-				<ul class="nav navbar-nav nav-pills center">
+				<ul class="nav navbar-nav nav-pills middle">
 					<li><span class="glyphicon glyphicon-search"></span><input type="text" placeholder="Search event" class="search-event"></li>
-					<li><button onclick="location.href='<?php echo base_url("form"); ?>'" type="button" class="create-an-event-button">Create an Event</button></li>
+					<li><button type="button" class="create-an-event-button">Create an Event</button></li>
 				</ul> 
-
+ 
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="<?php echo base_url("home");?>" class="hover">HOME</a></li>
 					<li class="dropdown"><a href="#" class="dropdown-toggle hover" data-toggle="dropdown">CATEGORIES</a>
@@ -44,6 +38,7 @@
 					<li><a href="#about-section" class="hover">ABOUT US</a></li>
 				</ul>
 			</div>
+
 		</div>
-    
-	</nav>
+    </div>
+</nav>

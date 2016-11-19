@@ -14,7 +14,6 @@
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=2.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
 
@@ -23,7 +22,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
 </head>
-<body>
+
+<body style="background-color: rgb(23,23,56">
     <div class="container-fluid">
 <!-- to access to this, go: localhost:8888/Web-App-Project/technology -->
 
@@ -33,8 +33,8 @@
 
 <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
 <!--Card-based design-->
-        <div class="container">
-            <div class="row"><h1 class="text-center" style="margin-top: 12%"><?php echo $category; ?></h1></div>
+        <div class="container-fluid">
+            <div class="row"><h1 class="text-center" style="margin-top: 15%; color: #fff;"><?php echo $category; ?></h1></div>
             <div class="row row-margin">
                 <a>
                     <div class="col-md-6 col-sm-6 col-xs-12">
