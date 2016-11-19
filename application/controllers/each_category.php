@@ -10,7 +10,7 @@ class Each_category extends CI_Controller {
 		else if($category == 'education'){
 			$data['category'] = 'Giáo dục';
 		}
-		if($category == 'career'){
+		else if($category == 'career'){
 			$data['category'] = 'Nghề nghiệp';
 		}
 		else if($category == 'fashion'){

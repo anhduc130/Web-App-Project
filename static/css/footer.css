@@ -1,7 +1,9 @@
-.footer{
+footer{
 	font-family: 'Roboto', Arial;
 	font-size: 15px;
 	color: white;
-	background-color: black;
+	background-color: rgba(236,46,48,0.5);
 	text-align: center;
+	padding: 1em;
+	margin-top: 1em;
 }
