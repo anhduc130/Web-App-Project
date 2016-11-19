@@ -1,46 +1,26 @@
-.container-full {
-  margin: 0 auto;
-  width: 100%;
+.border{
+	border-top: solid #fff 2px;
+	margin-top: 5%;
 }
-.gray{
-	background-color: #bcbcbc;
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
-	padding: 1%;
-	margin: 3% auto 0% auto;
+.white-text{
+	color: #fff;
 }
-
-.dark{
-	background-color: rgba(58,58,57,0.9);
+.transparent{
+	background-color: rgb(54,54,102);
+	padding: 2em;
+	font-size: 20px;
 }
-
-.aboutUs{
-	background-color: rgba(220,118,135,0.4);
-	display: block;
-	font-size:20px;
-	padding: 10px;
-	margin-left: 0px;
-	margin-top: 0px;
-	color: #ffffff;
+.margin-bottom{
+	margin-bottom: 10px;
 }
-
-.aboutUsText{
-	color: white;
-	font-size: 15px;
-	margin: 0% 1% 2% 1%;
-	text-align: justify;
+.contact-us{
+	background-color: rgb(219,44,49);
+	box-shadow: 20px 20px 5px black;
+	width: 60%;
+	padding: 5px;
+	margin: 5% auto;
 }
-
-.map{
-	margin: 10px 30px auto auto;
+.contact-info{
+	font-size: 20px;
+	padding-top: 3%;
 }
-
-.red{
-	height: 15%;
-	width: 95%;
-	margin-top: -18%;
-	margin-left: 5%;
-}
-
