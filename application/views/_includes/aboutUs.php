@@ -14,22 +14,15 @@
 
 				<div class="row margin-bottom">
 					<div class="col-sm-offset-1 col-xs-offset-1 text-center">
-						<img src="<?php echo base_url("static/images/contact-icon/emailS.png"); ?>" alt="">
+						<img src="<?php echo base_url("static/images/contact-icon/email.png"); ?>" alt="">
 						<span class="white-text contact-info">abc@xyz.com</span>
 					</div>					
 				</div>
 				
 				<div class="row margin-bottom">
 					<div class="col-sm-offset-1 col-xs-offset-1 text-center">
-						<img src="<?php echo base_url("static/images/contact-icon/fbS.png"); ?>" alt="">
-						<span class="white-text contact-info">abc@xyz.com</span>
-					</div>					
-				</div>
-
-				<div class="row margin-bottom">
-					<div class="col-sm-offset-1 col-xs-offset-1 text-center">
-						<img src="<?php echo base_url("static/images/contact-icon/telephoneS.png"); ?>" alt="">
-						<span class="white-text contact-info">abc@xyz.com</span>
+						<img src="<?php echo base_url("static/images/contact-icon/telephone.png"); ?>" alt="">
+						<span class="white-text contact-info">09898495475</span>
 					</div>					
 				</div>
 				
