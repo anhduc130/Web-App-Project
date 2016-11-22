@@ -14,7 +14,7 @@
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=2.0">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=3.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -153,25 +153,31 @@
 if($(window).width() > 767){
     $("#carousel-section").css('margin-top','7%');
     $('.logo').css('margin-left','14%');
+    $('.logo').css('width','12vw');
 }else if($(window).width() > 505){
     $("#carousel-section").css('margin-top','10%');
     $('.logo').css('margin-left','-22%');
+    $('.logo').css('width','20vw');
 }
 else{
     $("#carousel-section").css('margin-top','17%');
     $('.logo').css('margin-left','-22%');
+    $('.logo').css('width','25vw');
 }
 $(window).resize(function(){
     if($(window).width() > 767){
         $("#carousel-section").css('margin-top','7%');
         $('.logo').css('margin-left','14%');
+        $('.logo').css('width','12vw');
     }else if($(window).width() > 505){
         $("#carousel-section").css('margin-top','10%');
         $('.logo').css('margin-left','-22%');
+        $('.logo').css('width','20vw');
     }
     else{
         $("#carousel-section").css('margin-top','17%');
         $('.logo').css('margin-left','-22%');
+        $('.logo').css('width','25vw');
     }
 });
 </script>

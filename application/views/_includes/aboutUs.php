@@ -1,5 +1,5 @@
 <div id="about-section">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row border">
 
 			<div class="col-sm-8 col-xs-12 white-text">

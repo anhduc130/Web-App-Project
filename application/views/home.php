@@ -5,7 +5,7 @@
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/carouselStyle.css?v=2.0">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/navBarStyle.css">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/home-bodyStyle.css?v=2.0">
-	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/aboutUsStyle.css?v=1.0">
+	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/aboutUsStyle.css?v=3.0">
 	<link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/footer.css">
 	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
