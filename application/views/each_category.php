@@ -39,7 +39,7 @@
         <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
         <!--Card-based design-->
         <div class="container-fluid">
-            <div class="row"><h1 class="text-center" style="margin-top: 15%; color: #fff;"><?php echo $category; ?></h1></div>
+            <div class="row"><h1 class="text-center" style="margin-top: 150px; color: #fff;"><?php echo $category; ?></h1></div>
             <!--category-content-->
             <div class="col-xs-12 category-display">
               <!--Calender -->
