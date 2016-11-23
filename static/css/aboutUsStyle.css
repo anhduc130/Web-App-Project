@@ -9,7 +9,7 @@
 .transparent{
 	background-color: rgb(54,54,102);
 	padding: 2em;
-	font-size: 15px;
+	font-size: 18px;
 }
 .margin-bottom{
 	margin-bottom: 10px;
@@ -22,6 +22,6 @@
 	margin: 5% auto;
 }
 .contact-info{
-	font-size: 15px;
+	font-size: 18px;
 	padding-top: 3%;
 }
