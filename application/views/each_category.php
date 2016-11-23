@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css?v=1.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=3.0">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -39,7 +39,7 @@
         <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
         <!--Card-based design-->
         <div class="container-fluid">
-            <div class="row"><h1 class="text-center" style="margin-top: 150px; color: #fff;"><?php echo $category; ?></h1></div>
+            <div class="row"><h1 class="text-center title-center" style="margin-top: 150px; color: #fff;"><?php echo $category; ?></h1></div>
             <!--category-content-->
             <div class="col-xs-12 category-display">
               <!--Calender -->
