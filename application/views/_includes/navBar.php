@@ -21,8 +21,8 @@
             
 			<div class="collapse navbar-collapse" id="collapseTarget"> 
 				<ul class="nav navbar-nav nav-pills middle">
-					<li><span class="glyphicon glyphicon-search"></span><input type="text" placeholder="Search event" class="search-event"></li>
-					<li><button type="button" class="create-an-event-button">Create an Event</button></li>
+					<li style="padding:12px"><span class="glyphicon glyphicon-search"></span><input type="text" placeholder="Search event" class="search-event"></li>
+					<li><a href="<?php echo base_url("form"); ?>"><button type="button" class="create-an-event-button">Create an Event</button></a></li>
 				</ul> 
  
 				<ul class="nav navbar-nav navbar-right">
