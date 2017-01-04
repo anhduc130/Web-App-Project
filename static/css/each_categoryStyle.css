@@ -15,6 +15,10 @@ small {
     margin-top: 20px;
 }
 
+.h5{
+  font-size: 16px;
+}
+
 /* card image
 
 .event-card-0 {
@@ -149,7 +153,7 @@ small {
   padding-right: 0 !important;
 }
 .category-content-frame {
-  height: 190px;
+  height: 208px;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   position: relative;
@@ -165,7 +169,7 @@ small {
   overflow: hidden;
   /*opacity: 0.4;*/
   text-decoration: none;
-  padding: 10px 15px;
+  padding: 2px 2px;
   color: #fff;
   cursor: pointer;
 }
@@ -250,14 +254,14 @@ small {
     padding: 0 !important;
   }
   .category-content {
-    margin: 5px 0;
+    margin: 1px 0;
     padding: 0 !important;
   }
   .category-content-frame {
-    height: 130px;
+    height: 190px;
   }
   .category-content-intro {
-    padding: 2px 5px;
+    padding: 1px 1px;
   }
   .category-content-intro h4{
     font-size: 15px;

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css?v=1.0">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css?v=3.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
@@ -39,7 +39,7 @@
         <!--Cardbase in Web-App-Project/static/assets-kienthu/_cardbase.php -->
         <!--Card-based design-->
         <div class="container-fluid">
-            <div class="row"><h1 class="text-center title-center" style="margin-top: 150px; color: #fff;"><?php echo $category; ?></h1></div>
+            <div class="row"><h1 class="text-center title-center" style="margin-top: 150px; color: #fff;"><?php echo $displayCategory; ?></h1></div>
             <!--category-content-->
             <div class="col-xs-12 category-display">
               <!--Calender -->
@@ -51,89 +51,7 @@
               </div>
               <!--End Calender  -->
               <!--Category-event-content  -->
-              <div class="col-xs-12 col-sm-9 pd-0-xs">
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_0.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_1.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_2.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_3.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_4.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_5.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_6.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_7.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_8.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 category-content">
-                  <div class="category-content-frame" style="background: url('<?php echo base_url();?>static/images/each_category/each_9.jpeg') center;">
-                    <a class="category-content-intro">
-                      <h4>This is intro</h4>
-                    </a>
-                  </div>
-                </div>
-
-              </div>
+              <div id="events" class="col-xs-12 col-sm-9 pd-0-xs"></div>
               <!--End Category-event-content  -->
             </div>
             <!--End category-content-->
@@ -144,11 +62,7 @@
         <?php include("_includes/footer.php");?>
     </div>
 <!--Here is for javascript-->
-<script>
-    $('#myCarousel').carousel({
-        interval: 4000
-    })
-</script>
+
 <script type="text/javascript">
 if($(window).width() > 767){
     $("#carousel-section").css('margin-top','7%');
@@ -181,6 +95,57 @@ $(window).resize(function(){
     }
 });
 </script>
+
+<!-- Load data Script -->
+<script type="text/javascript">
+    $.ajax({
+        url: "<?php echo base_url("each_category/loadEvents")?>/" + "<?=$category?>",
+        success: function(result){
+          if(JSON.parse(result).length > 0){
+            console.log(JSON.parse(result));
+            render_data(JSON.parse(result));
+          }
+          else{
+            $("#events").empty();
+            $("#events").append("No results found!");
+          }
+        }
+    });
+
+    function render_data(data){
+        $("#events").empty();
+        for(i = 0; i < data.length; i++){
+            var element = 
+            "<div class='col-xs-12 col-sm-6 category-content'>" + 
+                `<div class='category-content-frame' style='background: url(${data[i].image_link}) center;'>` + 
+                    "<a class='category-content-intro'>" + 
+                    "<div class='container-fluid'>" +
+                      "<div class='row'>" +
+                        "<div class='col-xs-12 col-sm-12'>" +
+                          `<h5><strong>${data[i].title}</strong></h5><br>` +
+                        "</div>" +
+                        "<div class='col-xs-6 col-sm-6'>" +
+                          `Date: ${data[i].event_date}` +
+                        "</div>" +
+                        "<div class='col-xs-6 col-sm-6'>" +
+                          `Time: ${data[i].event_date}` +
+                        "</div>" +
+                        "<div class='col-xs-6 col-sm-6'>" +
+                          `Location: ${data[i].location}` +
+                        "</div>" +
+                        "<div class='col-xs-6 col-sm-6'>" +
+                          `Admission: <mark>Free</mark>` +
+                        "</div>" + 
+                      "</div>" +
+                    "</div>" +
+                    "</a>" +
+                "</div>" +
+            "</div>";
+            $("#events").append(element);
+        }
+    }
+</script>
+
 <!-- choosing date js -->
 <script type="text/javascript">
   $(function ($) {
