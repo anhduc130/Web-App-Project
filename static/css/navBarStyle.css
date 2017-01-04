@@ -16,7 +16,7 @@
 	top:0;
 	z-index:0;
 	height: auto;
-	width: 12vw;
+	width: 10vw;
 }
 .language{
 	margin-right: 10%;
@@ -40,6 +40,7 @@
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	max-width: 100%;
+	width: 200px;
 }
 .create-an-event-button{
 	background-color:rgba(206,53,64,0.7);
