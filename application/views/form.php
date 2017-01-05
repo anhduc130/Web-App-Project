@@ -21,102 +21,103 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body style="background-color: rgb(23,23,56)">
 <?php include("_includes/navBar.php"); ?>
+
 <!-- This is our body -->
 <div class="container-fluid form">
-	<br><br><br><br><br><br>
+
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-		<form id="submit-form" method="post" >	
+			<form id="submit-form" method="post" >	
 				<div class="row">
 					<div class="col-md-4">
-						<label for="organizer">Ban Tổ Chức:</label>
+						<label for="organizer" class="label">Organizer:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<textarea type="text" id="organizer" name="organizer" cols="40"></textarea>
+						<textarea type="text" id="organizer" name="organizer" cols="60" rows="3" class="input"></textarea>
 					</div>
 				</div>
 				<br>
 				
 				<div class="row">
 					<div class="col-md-4">
-						<label for="email">Email:</label>
+						<label for="email" class="label">Email:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<input type="email" id="email" name="email" >
+						<input type="email" id="email" name="email" class="input" size="50">
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="phoneNo">Số Điện Thoại:</label>
+						<label for="phoneNo" class="label">Phone number:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<input type="tel" id="phoneNo" name="phoneNo">
+						<input type="tel" id="phoneNo" name="phoneNo" class="input" size="30">
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="date">Ngày Tổ Chức:</label>
+						<label for="date" class="label">Date:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<input type="date" id="date" name="date">
+						<input type="date" id="date" name="date" class="input">
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="time">Thời Gian:</label>
+						<label for="time" class="label">Time:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<input type="time" id="time" name="time" value="">
+						<input type="time" id="time" name="time" value="" class="input">
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="location">Địa Điểm:</label>
+						<label for="location" class="label" >Location:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<textarea type="text" id="location" name="location" cols="40"></textarea>
+						<textarea type="text" id="location" name="location" cols="60" rows="2" class="input"></textarea>
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="details">Thông Tin Về Sự Kiện:</label>
+						<label for="details" class="label">Event information:</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<textarea id="details" name="details" cols="40" rows="5"></textarea>
+						<textarea id="details" name="details" cols="80" rows="30" class="input"></textarea>
 					</div>
 				</div>
 				<br>
 
 				<div class="row">
 					<div class="col-md-4">
-						<label for="image">Choose an image file:</label>
+						<label for="image" class="label">Choose an image file:</label>
 					</div>
 				</div>
 				<div class="row">
@@ -128,13 +129,14 @@
 
 				<div class="row">
 					<div class="col-md-3">
-						<input type="submit" value="Gửi">
-						<input type="reset" value="Xóa"> 
+						<button type="submit" value="send" class="button button1">SEND</button>
+						<button type="reset" value="delete" class="button button1">DELETE</button>
 					</div>
 				</div>
 				<br>
 			</form> 
-			</div>
+		</div>
+		<div class="col-md-2"></div>
 	</div>
 </div>
 
