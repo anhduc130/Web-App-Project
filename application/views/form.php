@@ -5,20 +5,18 @@
 <head>
 	<meta charset="utf-8" />
     <title>Form</title>
-
-    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css?v=2.0">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/form.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
 </head>
 
 <body style="background-color: rgb(23,23,56)">
@@ -139,6 +137,34 @@
 		<div class="col-md-2"></div>
 	</div>
 </div>
+
+<script type="text/javascript">
+if($(window).width() > 1000){
+    $('.logo').css('margin-left','14%');
+    $('.logo').css('width','12vw');
+}else if($(window).width() > 505){
+    $('.logo').css('margin-left','-22%');
+    $('.logo').css('width','20vw');
+}
+else{
+	$('.logo').css('margin-left','-22%');
+	$('.logo').css('width','25vw');
+}
+
+$(window).resize(function(){
+	if($(window).width() > 1000){
+		$('.logo').css('margin-left','14%');
+		$('.logo').css('width','12vw');
+	}else if($(window).width() > 505){
+	    $('.logo').css('margin-left','-22%');
+	    $('.logo').css('width','20vw');
+	}
+	else{
+		$('.logo').css('margin-left','-22%');
+		$('.logo').css('width','25vw');
+	}
+});
+</script>>
 
 <?php include("_includes/aboutUs.php");?>
 <?php include("_includes/footer.php"); ?>
