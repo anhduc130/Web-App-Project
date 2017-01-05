@@ -20,32 +20,6 @@
 	background-color: #fe2020 !important; 
 }
 
-
-.search-event{
-	background-color: rgba(0,0,0,0.7);
-	height: 2em;
-	font-size: 20px;
-	padding: 10px;
-	position: relative;
-	border: none;
-	max-width: 50%;
-	color: #ffffff;
-	font-family: 'Roboto', sans-serif;
-}
-
-.create-an-event-button{
-	background-color:rgba(206,53,64,0.7);
-	height: 2em;
-	font-size: 20px;
-	position: relative;
-	color:#ffffff;
-	width: 200px;
-	box-shadow: 10px 10px rgba(0,0,0,0.7);
-	border:none;
-	max-width: 100%;
-	font-family: 'Roboto', sans-serif;
-}
-
 .create-an-event-button:hover{
 	background-color:rgba(196,88,96,0.6);
 }

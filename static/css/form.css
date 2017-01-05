@@ -1,4 +1,27 @@
 .form{
-	background: url(../images/form/form_background.jpg) no-repeat center center fixed; 
-	background-size: 40% 100%;
+	background: url(../images/form/form_backgroundN.jpg) no-repeat ; 
+	background-size: 50% 100%;
+	background-position: 100% 0%;
+	margin-top: 15%;
+}
+
+.label{
+	color: #fff;
+	font-size: 20px !important; 
+}
+.input{
+	border-radius: 10px;
+}
+.button1{
+	color: rgb(219,44,49);
+	background-color: #fff;
+	transition: color background-color 0.5s;
+	border-radius: 10px;
+	width: 40%;
+	margin: 2px;
+	font-weight: bold;
+}
+.button1:hover{
+	color: #fff;
+	background-color: rgba(219,44,49,0.5);
 }
