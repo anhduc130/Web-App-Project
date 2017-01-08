@@ -26,12 +26,12 @@
 	box-shadow: 0 0 5px 5px rgba(0,0,0,0.7);
 }
 .create-an-event-button{
-	background-color: rgba(236,46,48,0.5);
-	box-shadow: 5px 5px black;
-	color: #000;
-	font-weight:bold;
-	font-size: 15px; 
-// 	animation: blinking 2s linear infinite;
+	background-color: rgba(236,46,48,0.5) !important;
+	box-shadow: 5px 5px black !important;
+	color: #000 !important;
+	font-weight:bold !important;
+	font-size: 15px !important; 
+ 	animation: blinking 2s linear infinite !important;
 }
 @keyframes blinking{
 	from{
@@ -54,7 +54,7 @@
 .nav li { 
 	font-size: 20px;
 	margin-right: 20px;
-	color: rgba(236,46,48,0.5);;
+	color: rgba(236,46,48,0.5);
 }
 
 .navbar-toggle {
