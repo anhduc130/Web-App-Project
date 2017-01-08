@@ -11,13 +11,13 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<img src="<?php echo base_url("static/images/0s.jpg"); ?>" alt="first-slide" class="img-responsive">
+							<img src="<?php echo base_url("static/images/2s.jpg"); ?>" alt="first-slide" class="img-responsive">
 						</div>
 						<div class="item">
-							<img src="<?php echo base_url("static/images/2s.jpg"); ?>" alt="second-slide" class="img-responsive">
+							<img src="<?php echo base_url("static/images/1s.jpg"); ?>" alt="second-slide" class="img-responsive">
 						</div>
 						<div class="item">
-							<img src="<?php echo base_url("static/images/1s.jpg"); ?>" alt="third-slide" class="img-responsive">
+							<img src="<?php echo base_url("static/images/0s.jpg"); ?>" alt="third-slide" class="img-responsive">
 						</div>
 					</div>
 					<a href="#myCarousel" class="carousel-control left" data-slide="prev">
