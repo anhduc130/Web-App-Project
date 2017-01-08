@@ -20,10 +20,6 @@
 	background-color: #fe2020 !important; 
 }
 
-.create-an-event-button:hover{
-	background-color:rgba(196,88,96,0.6);
-}
-
 @media screen and (max-width: 542px) {
 	.find-search{
 		flex-direction: column;
