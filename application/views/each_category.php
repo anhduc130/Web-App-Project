@@ -152,43 +152,38 @@ else{
     $(".calendar-model").css('display','block');
 }
 
-if($(window).width() > 767){
-    $("#carousel-section").css('margin-top','7%');
+if($(window).width() > 1000){
     $('.logo').css('margin-left','14%');
     $('.logo').css('width','12vw');
 }
-else if($(window).width() > 505){
-    $("#carousel-section").css('margin-top','10%');
+else if($(window).width() > 550){
     $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','20vw');
+    $('.logo').css('width','16vw');
 }
 else{
-    $("#carousel-section").css('margin-top','17%');
     $('.logo').css('margin-left','-22%');
     $('.logo').css('width','25vw');
 }
 $(window).resize(function(){
-    if($(window).width() < 1000){
-        $(".calendar-model").css('display','none');
-    }
-    else{
-        $(".calendar-model").css('display','block');
-    }
+  if($(window).width() < 1000){
+      $(".calendar-model").css('display','none');
+  }
+  else{
+      $(".calendar-model").css('display','block');
+  }
     
-    if($(window).width() > 767){
-        $("#carousel-section").css('margin-top','7%');
-        $('.logo').css('margin-left','14%');
-        $('.logo').css('width','12vw');
-    }else if($(window).width() > 505){
-        $("#carousel-section").css('margin-top','10%');
-        $('.logo').css('margin-left','-22%');
-        $('.logo').css('width','20vw');
-    }
-    else{
-        $("#carousel-section").css('margin-top','17%');
-        $('.logo').css('margin-left','-22%');
-        $('.logo').css('width','25vw');
-    }
+  if($(window).width() > 1000){
+    $('.logo').css('margin-left','14%');
+    $('.logo').css('width','12vw');
+  }
+  else if($(window).width() > 550){
+    $('.logo').css('margin-left','-22%');
+    $('.logo').css('width','16vw');
+  }
+  else{
+    $('.logo').css('margin-left','-22%');
+    $('.logo').css('width','25vw');
+  }
 });
 </script>
   <!-- choosing date js -->

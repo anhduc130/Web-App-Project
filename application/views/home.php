@@ -11,6 +11,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/navBarStyle.css?v=1.0">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/aboutUsStyle.css">
 	<script> $('#myCarousel').carousel({ interval: 4000 }) </script>	
 </head>
 
