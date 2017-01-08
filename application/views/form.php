@@ -28,7 +28,7 @@
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
-			<form id="submit-form" method="post" >	
+			<form id="submit-form" method="post" class="formpos">	
 				<div class="row">
 					<div class="col-md-4">
 						<label for="organizer" class="label">Organizer:</label>
@@ -145,23 +145,28 @@ if($(window).width() > 1000){
 }else if($(window).width() > 505){
     $('.logo').css('margin-left','-22%');
     $('.logo').css('width','20vw');
+    $('.formpos').css('margin-top', '10%');
 }
 else{
 	$('.logo').css('margin-left','-22%');
 	$('.logo').css('width','25vw');
+	$('.formpos').css('margin-top', '13%');
 }
 
 $(window).resize(function(){
 	if($(window).width() > 1000){
 		$('.logo').css('margin-left','14%');
 		$('.logo').css('width','12vw');
+		$('.formpos').css('margin-top', '0%');
 	}else if($(window).width() > 505){
 	    $('.logo').css('margin-left','-22%');
 	    $('.logo').css('width','20vw');
+	    $('.formpos').css('margin-top', '10%');
 	}
 	else{
 		$('.logo').css('margin-left','-22%');
 		$('.logo').css('width','25vw');
+		$('.formpos').css('margin-top', '13%');
 	}
 });
 </script>>

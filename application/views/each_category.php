@@ -12,6 +12,7 @@
     <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css?v=1.0">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
@@ -28,7 +29,7 @@
 
 </head>
 
-<body style="background-color: rgb(23,23,56">
+<body style="background-color: rgb(23,23,56)">
     <div class="container-fluid pd-0">
     <!-- to access to this, go: localhost:8888/Web-App-Project/technology -->
 

@@ -22,16 +22,16 @@
 			<div class="collapse navbar-collapse" id="collapseTarget"> 
 				<form class="navbar-form navbar-left">
       				<div class="input-group">
-        				<input style="background-color: black;" type="text" class="form-control" placeholder="Search">
-	        			<div class="input-group-btn">
-	          				<button class="btn btn-default" type="submit">
-	            				<i class="glyphicon glyphicon-search"></i>
+	        			<input type="text" class="form-control" placeholder="Search">
+        				<div class="input-group-btn">
+	          				<button class="btn btn-default btn-customized" type="submit">
+	            				<span class="glyphicon glyphicon-search"></span>
 	          				</button>
 	        			</div>
       				</div>
     			</form>
     			<form action="<?php echo base_url("form");?>" class="navbar-form navbar-left">
-      				<button style="background-color: red" type="submit" class="btn">Create an event</button>
+      				<button type="submit" class="btn create-an-event-button">CREATE AN EVENT</button>
     			</form>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="<?php echo base_url("home");?>" class="hover">HOME</a></li>
