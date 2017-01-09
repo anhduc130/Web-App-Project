@@ -1,5 +1,5 @@
   <!DOCTYPE html>
-  <html lang="vi">
+  <html lang="en">
 
   <head>
       <meta charset="utf-8" />
@@ -20,6 +20,7 @@
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/bootstrap.min.css">
+
       <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
       <!-- Calendar css + js link -->
       <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
@@ -154,15 +155,15 @@ else{
 
 if($(window).width() > 1000){
     $('.logo').css('margin-left','14%');
-    $('.logo').css('width','12vw');
+    $('.logo').css('width','150px');
 }
 else if($(window).width() > 550){
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','16vw');
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
 }
 else{
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','25vw');
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
 }
 $(window).resize(function(){
   if($(window).width() < 1000){
@@ -174,15 +175,15 @@ $(window).resize(function(){
     
   if($(window).width() > 1000){
     $('.logo').css('margin-left','14%');
-    $('.logo').css('width','12vw');
+    $('.logo').css('width','150px');
   }
   else if($(window).width() > 550){
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','16vw');
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
   }
   else{
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','25vw');
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
   }
 });
 </script>

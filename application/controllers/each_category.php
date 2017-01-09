@@ -5,19 +5,19 @@ class Each_category extends CI_Controller {
 	public function index($category)
 	{
 		if($category == 'technology'){
-			$data['category'] = 'Công nghệ';
+			$data['category'] = 'Technology';
 		}
 		else if($category == 'education'){
-			$data['category'] = 'Giáo dục';
+			$data['category'] = 'Education';
 		}
 		else if($category == 'career'){
-			$data['category'] = 'Nghề nghiệp';
+			$data['category'] = 'Career';
 		}
 		else if($category == 'fashion'){
-			$data['category'] = 'Thời trang';
+			$data['category'] = 'Fashion';
 		}
 		else if($category == 'others'){
-			$data['category'] = 'Những events khác';
+			$data['category'] = 'Other Events';
 		}
 		$this->load->view('each_category',$data);
 	}
