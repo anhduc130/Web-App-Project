@@ -5,7 +5,9 @@
 			<div class="col-sm-8 col-xs-12 white-text">
 				<h2 class="text-center">ABOUT US</h2>
 				<p class="transparent">
-					We are a group of Software Engineering students who develop this website as a non-profit project for the community. We hope to contribute our efforts to make a better life for people in Vietnam, especially students. We are strongly passionate about software creations and technologies. Please support us!
+					We are a group of Software Engineering students who develop this website as a non-profit project for the community. We hope to contribute this application as a little quick tour guide for the locals and foreigners who come to visit Vietnam.<br><br>
+					Did you ever wonder what to do tonight? Visit us frequently for more highlighted upcoming events. Bring your friends and have lots of fun today!!!<br><br>
+					If you have any feedback or queries, please feel free to contact us. We really appreaciate it &#9786!<br>
 				</p>
 			</div>
 
@@ -15,7 +17,7 @@
 				<div class="row margin-bottom">
 					<div class="col-sm-offset-1 col-xs-offset-1 text-center">
 						<img src="<?php echo base_url("static/images/contact-icon/email.png"); ?>" alt="">
-						<span class="white-text contact-info">abc@xyz.com</span>
+						<span class="white-text contact-info">team@xyz.com</span>
 					</div>					
 				</div>
 				
