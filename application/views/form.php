@@ -5,18 +5,24 @@
 <head>
 	<meta charset="utf-8" />
     <title>Form</title>
+    <meta name="description" content="" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/homeStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/form.css">
+    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css?v=1.0">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
     <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/bootstrap.min.css">
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
 </head>
 
 <body style="background-color: rgb(23,23,56)">
@@ -141,35 +147,36 @@
 <script type="text/javascript">
 if($(window).width() > 1000){
     $('.logo').css('margin-left','14%');
-    $('.logo').css('width','12vw');
-}else if($(window).width() > 505){
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','20vw');
-    $('.formpos').css('margin-top', '10%');
+    $('.logo').css('width','150px');
+}
+else if($(window).width() > 550){
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
+    $('.formpos').css('margin-top', '7%');
 }
 else{
-	$('.logo').css('margin-left','-22%');
-	$('.logo').css('width','25vw');
-	$('.formpos').css('margin-top', '13%');
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
+    $('.formpos').css('margin-top', '15%');
 }
 
 $(window).resize(function(){
-	if($(window).width() > 1000){
-		$('.logo').css('margin-left','14%');
-		$('.logo').css('width','12vw');
-		$('.formpos').css('margin-top', '0%');
-	}else if($(window).width() > 505){
-	    $('.logo').css('margin-left','-22%');
-	    $('.logo').css('width','20vw');
-	    $('.formpos').css('margin-top', '10%');
-	}
-	else{
-		$('.logo').css('margin-left','-22%');
-		$('.logo').css('width','25vw');
-		$('.formpos').css('margin-top', '13%');
-	}
+  if($(window).width() > 1000){
+    $('.logo').css('margin-left','14%');
+    $('.logo').css('width','150px');
+  }
+  else if($(window).width() > 550){
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
+    $('.formpos').css('margin-top', '7%');
+  }
+  else{
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
+    $('.formpos').css('margin-top', '15%');
+  }
 });
-</script>>
+</script>
 
 <?php include("_includes/aboutUs.php");?>
 <?php include("_includes/footer.php"); ?>

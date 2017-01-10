@@ -1,5 +1,5 @@
   <!DOCTYPE html>
-  <html lang="vi">
+  <html lang="en">
 
   <head>
       <meta charset="utf-8" />
@@ -10,8 +10,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
 
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/each_categoryStyle.css">
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css">
-      <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css">
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/carouselStyle.css?v=1.0">
+      <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/navBarStyle.css?v=1.0">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/home-bodyStyle.css">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/aboutUsStyle.css">
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/static/css/footer.css">
@@ -20,6 +20,7 @@
       <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
       <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>static/css/bootstrap.min.css">
+
       <script type='text/javascript' src="static/js/_event-cardbase-hover.js"></script>
       <!-- Calendar css + js link -->
       <link id="themecss" rel="stylesheet" type="text/css" href="//www.shieldui.com/shared/components/latest/css/light/all.min.css" />
@@ -152,43 +153,38 @@ else{
     $(".calendar-model").css('display','block');
 }
 
-if($(window).width() > 767){
-    $("#carousel-section").css('margin-top','7%');
+if($(window).width() > 1000){
     $('.logo').css('margin-left','14%');
-    $('.logo').css('width','12vw');
+    $('.logo').css('width','150px');
 }
-else if($(window).width() > 505){
-    $("#carousel-section").css('margin-top','10%');
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','20vw');
+else if($(window).width() > 550){
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
 }
 else{
-    $("#carousel-section").css('margin-top','17%');
-    $('.logo').css('margin-left','-22%');
-    $('.logo').css('width','25vw');
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
 }
 $(window).resize(function(){
-    if($(window).width() < 1000){
-        $(".calendar-model").css('display','none');
-    }
-    else{
-        $(".calendar-model").css('display','block');
-    }
+  if($(window).width() < 1000){
+      $(".calendar-model").css('display','none');
+  }
+  else{
+      $(".calendar-model").css('display','block');
+  }
     
-    if($(window).width() > 767){
-        $("#carousel-section").css('margin-top','7%');
-        $('.logo').css('margin-left','14%');
-        $('.logo').css('width','12vw');
-    }else if($(window).width() > 505){
-        $("#carousel-section").css('margin-top','10%');
-        $('.logo').css('margin-left','-22%');
-        $('.logo').css('width','20vw');
-    }
-    else{
-        $("#carousel-section").css('margin-top','17%');
-        $('.logo').css('margin-left','-22%');
-        $('.logo').css('width','25vw');
-    }
+  if($(window).width() > 1000){
+    $('.logo').css('margin-left','14%');
+    $('.logo').css('width','150px');
+  }
+  else if($(window).width() > 550){
+    $('.logo').css('margin-left','-26%');
+    $('.logo').css('width','115px');
+  }
+  else{
+    $('.logo').css('margin-left','-25%');
+    $('.logo').css('width','110px');
+  }
 });
 </script>
   <!-- choosing date js -->
