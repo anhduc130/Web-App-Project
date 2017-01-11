@@ -56,28 +56,52 @@
 	margin-right: 20px;
 	color: rgba(236,46,48,0.5);
 }
-
 .navbar-toggle {
 	color: rgba(225,225,225,0.7);
 }
 
-.hover{
+/*navbar-right*/
+a.hover{
 	color: #fff !important;
 	text-decoration: none;
 }
-
-.hover:hover, .hover:active{
+a.hover:hover{
 	background-color: rgba(94,71,72,0.7) !important;
 }
-
-.hover-sub {
-	background-color: rgba(209,197,197,0.5) !important;
+ul.nav li ul.dropdown-menu{
+	background: #666;
 }
 
-.hover-child:hover{
-	background-color: rgba(148,115,118,0.7) !important;
+/* menu items animation */
+li.menu-1{
+	opacity: 0;
+	animation: item-twist 300ms ease-in-out forwards;
+}
+li.menu-2{
+	opacity: 0;
+	animation: item-twist 600ms ease-in-out forwards;
+}
+li.menu-3{
+	opacity: 0;
+	animation: item-twist 900ms ease-in-out forwards;
+}
+li.menu-4{
+	opacity: 0;
+	animation: item-twist 1200ms ease-in-out forwards;
 }
 
+@keyframes item-twist{
+	0%{
+		opacity:0;
+		transform: rotateY(-90deg) translateY(30px);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateY(0deg) translateY(0px);
+	}
+}
+
+//responsive adjustment
 @media screen and (max-width: 1260px) {
 	.nav li, .create-an-event-button, .search-event{
 		font-size: 13px !important;
